@@ -5,8 +5,10 @@ def check_exercises(filename):
     exercises = [
         '2.4.3.4',
         '3.1.3.1',
+        '3.2.5.1',
         '3.3.5.1',
         '3.5.3.1',
+        '3.6.3.1',
         '3.7.2.1',
         '3.8.3.1',
         '3.9.3.1',
@@ -29,6 +31,7 @@ def check_exercises(filename):
         '7.6.3.6',
         '8.2.4.1',
         '8.2.5.1',
+        '8.2.6.1',
         '8.3.1.1',
         '9.3.3.1',
         '9.4.1.2',
@@ -72,6 +75,7 @@ def check_exercises(filename):
         '18.2.3.1',
         '18.2.4.1',
         '18.3.2.1',
+        '18.3.3.1',
         '19.4.2.1',
         '20.1.1.1',
         '20.2.1.1',
@@ -105,6 +109,7 @@ def check_exercises(filename):
         '24.5.1.1',
 
     ]
+    print(len(exercises))
     completed_exercise = []
     text = docx2txt.process(filename)
 
