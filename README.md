@@ -1,5 +1,5 @@
 # [OUTDATED]
-As of 3rd October 2022, this script will not work for the new OSCP exercises (with topic exercises) due to a new numbering convention.
+As of 3rd October 2022, this script will not work for the new OSCP exercises (with topic exercises) due to new numbering conventions.
 
 # About this script 
 This is a python script that checks your lab report to see if there are any unincluded/missing exercises. It DOES NOT check whether the exercise(s) are completed, it simply checks if the exercise number is included in your lab report.
